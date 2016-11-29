@@ -2,33 +2,37 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Explore the Adirondacks</title>
+    <title>INFO/CS 1300: Student Template</title>
     <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="styles/site.css">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+      </script>
     <script src="js/main.js"></script>
+    
   </head>
   <body>
     <div id="title">
-      <h1>IExplore the Adirondacks</h1>
+      <h1>jQuery Tests</h1>
     </div>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <a href="#" onclick="setSpringTheme()">Spring theme</a>
+      <a href="#" onclick="setFallTheme()">Fall theme</a>
     </nav>
     <div id="container">
-         <img id="image" src="Images/adr1.jpeg" alt="adr_image">
-        <button onclick="goback();" >Back</button>
-        <button onclick="gofwd();" >Next</button>
-         <!---image credits--->
-       <!--- http://7-themes.com/7014683-pixar.html
-        http://philipkochpaintings.blogspot.com/2010/06/adirondacks-plattsburgh-state-art.html
-        http://wallpapersafari.com/adirondack-mountains-wallpaper/
-        https://www.walldevil.com/15387-clouds-forests-hills-lakes-landscapes-mountains-nature-reflections-rivers-riverside-rocks-skyscapes-snow-trees-water-winter.html--->            
-    
+      <!-- Image credit https://ssl-forum-files.fobby.net/forum_attachments/0018/0819/higherrestaxi.png -->
+      <a id="car" href="#"><img id="car_image" src="images/taxi.png" alt="Uber" /></a>
+      <p>
+          Click the Uber to make it drive to the right.
+      </p>
+      <!-- Image credit http://vignette2.wikia.nocookie.net/pokemon/images/4/43/Ghooooooooost_Lavender_Town_Tone_Anecdote-s300x270-93824-580.png/revision/latest?cb=20111215005053 -->
+      <img id="ghost" src="images/ghost.png" alt="Ghost" />
+      <p>
+          <a id="text" href="#">OoooOOOoooOohh!</a>
+      </p>
     </div>
     <footer>
+      September 27th, 2016 | <a id=hide href="#">Hide Me</a>
     </footer>
   </body>
 </html>
